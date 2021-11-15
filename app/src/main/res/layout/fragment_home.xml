@@ -13,7 +13,7 @@
 <!--        android:layout_marginTop="3dp"-->
 <!--        android:layout_marginBottom="5dp"-->
 <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/btn_follower"-->
-<!--        tools:layout="@layout/fragment_follower"/>-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/위치 조정"-->
+<!--        tools:layout="레이아웃추가"/>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
