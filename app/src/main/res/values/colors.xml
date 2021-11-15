@@ -7,4 +7,28 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+     <!--    soptsocar_color-->
+    <color name="whtie">#ffffff</color>
+    <color name="gray_010">#fdfdfd</color>
+    <color name="gray_005">#fefefe</color>
+    <color name="gray_020">#f7f8f9</color>
+    <color name="gray_030">#e9ebee</color>
+    <color name="gray_040">#c5c8ce</color>
+    <color name="gray_050">#646f7c</color>
+    <color name="gray_060">#374553</color>
+    <color name="gray_070">#28323c</color>
+    <color name="gray_080">#161d24</color>
+    <color name="navy_050">#0069ff</color>
+    <color name="navy_060">#1b56ec</color>
+    <color name="red_050">#ff2c51</color>
+    <color name="yellow_050">#fff028</color>
+    <color name="yellow_060">#ffd324</color>
+    <color name="blue_010">#e1f5ff</color>
+    <color name="blue_020">#b2e5ff</color>
+    <color name="blue_030">#7dd5ff</color>
+    <color name="blue_040">#44c4ff</color>
+    <color name="blue_050">#00b8ff</color>
+    <color name="blue_060">#00aafe</color>
+    <color name="blue_070">#009bef</color>
+    <color name="blue_080">#0088da</color>
 </resources>

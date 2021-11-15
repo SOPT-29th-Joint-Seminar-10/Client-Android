@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SocarSub1M">
+        <item name="android:fontFamily">@font/spoqa_han_sans_neo_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+    <style name="SocarSub2M">
+        <item name="android:fontFamily">@font/spoqa_han_sans_neo_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+    <style name="SocarSub3B">
+        <item name="android:fontFamily">@font/spoqa_han_sans_neo</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+    <style name="SocarBody2R">
+        <item name="android:fontFamily">@font/spoqa_han_sans_neo</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+    <style name="SocarSub4M">
+        <item name="android:fontFamily">@font/spoqa_han_sans_neo_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+    <style name="SocarCap1R">
+        <item name="android:fontFamily">@font/spoqa_han_sans_neo</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+    <style name="SocarBody1M">
+        <item name="android:fontFamily">@font/spoqa_han_sans_neo_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+    <style name="SocarCap2R">
+        <item name="android:fontFamily">@font/spoqa_han_sans_neo</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+    </style>
+
+
+</resources>
