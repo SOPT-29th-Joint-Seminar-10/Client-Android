@@ -8,6 +8,7 @@ class ReservationCar : AppCompatActivity() {
 
     private lateinit var binding: ActivityReservationCarBinding
     lateinit var reserveCarAdapter: ReserveCarAdapter
+    lateinit var filterCarAdapter: FilterCarAdapter
 
     val data = mutableListOf<CarInfoData>()
 
@@ -30,10 +31,27 @@ class ReservationCar : AppCompatActivity() {
 private fun initAdapter(){
 
     reserveCarAdapter= ReserveCarAdapter()
+    filterCarAdapter = FilterCarAdapter()
+
     binding.rvCar.adapter=reserveCarAdapter
+    binding.rvFilter.adapter=filterCarAdapter
+
     val img1 = R.drawable.img_tosan
     val img11 = R.drawable.ic_default_heart_ios
 
+
+    filterCarAdapter.filterList.addAll(
+        listOf(
+            FilterInfoData(R.drawable.ic_filter),
+            FilterInfoData(R.drawable.ic_rentalperiod),
+            FilterInfoData(R.drawable.ic_filterprice),
+            FilterInfoData(R.drawable.ic_model),
+            FilterInfoData(R.drawable.ic_popularity),
+            FilterInfoData(R.drawable.ic_region)
+
+        )
+    )
+    filterCarAdapter.notifyDataSetChanged()
 
     reserveCarAdapter.carList.addAll(
         listOf(
