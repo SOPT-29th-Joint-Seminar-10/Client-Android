@@ -16,8 +16,13 @@ class ReservationCar : AppCompatActivity() {
         binding= ActivityReservationCarBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
+
         initAdapter()
 
+        //뒤로 가기 버튼 전 화면으로 이동
+        binding.back.setOnClickListener {
+            finish()
+        }
     }
 
 
