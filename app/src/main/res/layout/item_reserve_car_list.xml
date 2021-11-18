@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="14dp">
+
+    <ImageView
+        android:id="@+id/img_car"
+        android:layout_width="124dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="2:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177"
+        app:srcCompat="@drawable/img_tosan" />
+
+    <TextView
+        android:id="@+id/txt_carname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#28323c"
+        android:textSize="10sp"
+        android:includeFontPadding="false"
+        app:fontFamily="@font/spoqa_han_sans_neo_medium"
+        app:layout_constraintTop_toBottomOf="@+id/img_car"
+        tools:text="투싼(경유)"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/white"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toEndOf="@+id/txt_carname"
+        app:layout_constraintTop_toBottomOf="@+id/img_car"
+        app:srcCompat="@drawable/ic_default_heart_ios" />
+
+    <TextView
+        android:id="@+id/txt_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#28323c"
+        android:includeFontPadding="false"
+        android:textSize="12sp"
+        android:fontFamily="@font/spoqa_han_sans_neo_medium"
+        app:layout_constraintTop_toBottomOf="@+id/txt_carname"
+        tools:text="월503,000원 ~"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt_sale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="#44c4ff"
+        android:textSize="10sp"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/spoqa_han_sans_neo_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txt_price"
+        tools:ignore="MissingConstraints"
+        tools:text="26%" />
+
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#646f7c"
+        android:textSize="8sp"
+        app:fontFamily="@font/spoqa_han_sans_neo_regular"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="115dp"
+        tools:text="2016~2017" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="|"
+        android:textColor="#646f7c"
+        android:textSize="8sp"
+        android:includeFontPadding="false"
+        app:fontFamily="@font/spoqa_han_sans_neo_regular"
+        app:layout_constraintStart_toEndOf="@+id/txt_date"
+        app:layout_constraintTop_toBottomOf="@+id/txt_price" />
+    <TextView
+        android:id="@+id/txt_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        tools:text="서울/경기/인천"
+        android:textColor="#646f7c"
+        android:includeFontPadding="false"
+        android:textSize="8sp"
+        app:fontFamily="@font/spoqa_han_sans_neo_regular"
+        app:layout_constraintStart_toEndOf="@+id/txt_date"
+        app:layout_constraintTop_toBottomOf="@+id/txt_price" />
+</androidx.constraintlayout.widget.ConstraintLayout>
