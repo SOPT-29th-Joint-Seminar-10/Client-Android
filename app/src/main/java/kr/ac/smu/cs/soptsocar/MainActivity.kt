@@ -14,11 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityMainBinding.inflate(layoutInflater)
-//임시 서브 액티비티 넘어가는 버튼
-        binding.next.setOnClickListener{
-            val intent = Intent(this, ReservationCar::class.java)
-            startActivity(intent)
-        }
+
 
         initViewPagerAdapter()
         initBottomNavigation()
