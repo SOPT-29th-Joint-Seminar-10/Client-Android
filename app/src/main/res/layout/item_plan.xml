@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:background="@drawable/blue_back"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txt_plan_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="03"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/spoqa_han_sans_neo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_plan_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="8dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/spoqa_han_sans_neo"
+        android:text="wed"
+        app:layout_constraintStart_toStartOf="@+id/txt_plan_day"
+        app:layout_constraintTop_toBottomOf="@+id/txt_plan_day" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="12dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/spoqa_han_sans_neo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/line" />
+
+    <TextView
+        android:id="@+id/txt_plan_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="8dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/spoqa_han_sans_neo"
+        android:text="신림현대아파트 주차장"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_plan_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="12dp"
+        android:textSize="8dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/spoqa_han_sans_neo"
+        android:text="서울특별시 관악구 시립로 29길 8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/txt_plan_place"
+        app:layout_constraintTop_toBottomOf="@+id/txt_plan_place" />
+</androidx.constraintlayout.widget.ConstraintLayout>
