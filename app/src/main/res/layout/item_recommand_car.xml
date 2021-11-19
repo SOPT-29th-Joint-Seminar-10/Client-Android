@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="240dp"
+    android:layout_height="200dp"
+    android:background="@drawable/layout_background"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+    android:layout_marginBottom="60dp"
+    android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/img_rec_car"
+            android:layout_width="148dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:srcCompat="@drawable/img_allnewk_3" />
+
+        <TextView
+            android:id="@+id/txt_rec_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/spoqa_han_sans_neo"
+            android:text="더뉴아반떼"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_rec_car" />
+
+        <TextView
+            android:id="@+id/txt_rec_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/spoqa_han_sans_neo"
+            android:text="연 550,000원 ~"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="@+id/txt_rec_name"
+            app:layout_constraintTop_toBottomOf="@+id/txt_rec_name" />
+
+        <TextView
+            android:id="@+id/txt_rec_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/spoqa_han_sans_neo"
+            android:text="10%"
+            android:textColor="#44C4FF"
+            android:layout_marginLeft="12dp"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_rec_price"
+            app:layout_constraintStart_toEndOf="@+id/txt_rec_price"
+            app:layout_constraintTop_toTopOf="@+id/txt_rec_price" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/special" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/hot" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
